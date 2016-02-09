@@ -33,3 +33,6 @@ define( 'ERRIC_INCLUDE', ERRIC_PLUGIN_PATH . '/includes/' );
 // require_once ERRIC_INCLUDE . 'custom_header_avatar.php';
 // require_once ERRIC_INCLUDE . 'hide_media_button.php';
 // require_once ERRIC_INCLUDE . 'browser_os_class.php';
+
+$users = count_users();
+echo number_format($users['total_users'] + 40052)  . '+'; // 40,052
