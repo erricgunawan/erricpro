@@ -33,3 +33,4 @@ define( 'ERRIC_INCLUDE', ERRIC_PLUGIN_PATH . '/includes/' );
 // require_once ERRIC_INCLUDE . 'custom_header_avatar.php';
 // require_once ERRIC_INCLUDE . 'hide_media_button.php';
 // require_once ERRIC_INCLUDE . 'browser_os_class.php';
+require_once ERRIC_INCLUDE . 'company_info.php';
