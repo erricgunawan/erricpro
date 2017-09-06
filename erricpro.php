@@ -36,4 +36,5 @@ define( 'ERRIC_INCLUDE', ERRIC_PLUGIN_PATH . '/includes/' );
 // require_once ERRIC_INCLUDE . 'company_info.php';
 // require_once ERRIC_INCLUDE . 'term_meta_th.php';
 // require_once ERRIC_INCLUDE . 'term_meta_sm.php';
-require_once ERRIC_INCLUDE . 'output_buffering.php';
+// require_once ERRIC_INCLUDE . 'output_buffering.php';
+require_once ERRIC_INCLUDE . 'restapi_two_minutes.php';
